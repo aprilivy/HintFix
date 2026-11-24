@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "pet.aprl.hintfix.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": ["FreeTypeMixin"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

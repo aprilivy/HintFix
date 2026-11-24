@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "hintfix",
+	"version": "${version}",
+	"name": "HintFix",
+	"description": "Turns off FreeType hinting for every glyph loaded through LWJGL.",
+	"authors": ["April"],
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"mixins": ["hintfix.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
